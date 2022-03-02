@@ -1,0 +1,22 @@
+.welcome{
+  display: flex;
+  justify-content: center;
+}
+header img {
+  max-width:10%;
+  float: right;
+  margin-left: -150px;
+}
+header img:hover {
+  transition:1s;
+  transform:scale(1.4) rotate(360deg);
+}
+h1 {
+  font-family: 'IBM Plex Serif', serif;
+}
+.gallery{
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+}

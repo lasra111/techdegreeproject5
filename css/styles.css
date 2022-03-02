@@ -21,3 +21,8 @@ h1 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   padding:0px;
 }
+
+.gallery img:hover {
+  transition: ease-out,0.4s;
+  transform: scale(1.4);
+}

@@ -55,3 +55,7 @@ border-radius: 5px;
 .button:active{
   background-color: #006e58;
 }
+
+data-title {
+  font-size: 15px;
+}

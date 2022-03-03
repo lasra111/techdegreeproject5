@@ -1,5 +1,1 @@
-
-let searchbox = document.querySelector("#searchbar");
-let pictures = document.querySelectorAll("a");
-let captions= pictures.dataset.title;
-console.log(captions);
+const search = new Filter('search', 'data-caption');

@@ -1,3 +1,4 @@
+
 .welcome{
   display: flex;
   justify-content: center;
@@ -25,4 +26,32 @@ h1 {
 .gallery img:hover {
   transition: ease-out,0.4s;
   transform: scale(1.4);
+}
+.search {
+  display: flex;
+  justify-content: center;
+  height:30px;
+}
+#searchbar {
+width: 45%;
+text-align: center;
+border:none;
+border-radius: 5px;
+}
+
+.button {
+  width:10%;
+  background-color: #009578 ;
+  border:none;
+  border-radius:5px;
+  color:white;
+  font-size: 15px;
+}
+.button:hover {
+  background-color: #008168;
+  transform: scale(1.4);
+  transition: 1s;
+}
+.button:active{
+  background-color: #006e58;
 }
